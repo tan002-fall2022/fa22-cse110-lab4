@@ -1,0 +1,2 @@
+1) The bug is that variable "result" was returned as a string. The problem here is that function printSum() parsed in the the 2 numbers as strings. So it makes sense two strings arithmetic will produce another string, not a number.
+2) The simplest fix would be to directly parse the 2 strings into numbers in the printSum function.
